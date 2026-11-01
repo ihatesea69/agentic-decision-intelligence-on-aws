@@ -1,0 +1,4 @@
+{"_note": "EXAMPLE, invented: one month of KPI lines (VND bn). The headline does not add up from the lines (0.17), so it is flagged UNRECONCILED until Finance publishes its formula.",
+ "interest_revenue": 1.90, "fee_income": 0.10, "total_portfolio_revenue": 2.00, "expected_credit_loss": 2.60,
+ "provision_expense": 0.15, "write_off": 1.10, "collection_cost": 0.10, "cost_of_funds": 0.48,
+ "risk_adjusted_net_profit": 0.25}

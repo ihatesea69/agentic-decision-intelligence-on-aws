@@ -1,0 +1,29 @@
+{
+  "app": "python app.py",
+  "watch": {"include": ["**"], "exclude": ["cdk.out", ".build", "**/__pycache__"]},
+  "context": {
+    "stage": "dev",
+    "region": "ap-southeast-1",
+    "availabilityZones": ["ap-southeast-1a", "ap-southeast-1b"],
+    "vpcCidr": "10.40.0.0/16",
+    "modelId": "REPLACE_WITH_BEDROCK_MODEL_ID",
+    "approverRolePrefixes": "AWSReservedSSO_ADI-Approver",
+    "approvalHours": 120,
+    "maxRevisions": 2,
+    "mcChunks": 4,
+    "enabledActions": "intensify_collections,restructure",
+    "alertEmail": "",
+    "monthlyBudgetUsd": 500,
+    "auditLockMode": "GOVERNANCE",
+    "auditRetentionDays": 30,
+    "redshiftBaseRpu": 8,
+    "redshiftEnhancedVpcRouting": false,
+    "enableResidency": false,
+    "hanoiZone": "ap-southeast-1-han-1a",
+    "residencyCidr": "10.40.200.0/24",
+    "@aws-cdk/aws-iam:minimizePolicies": true,
+    "@aws-cdk/aws-s3:serverAccessLogsUseBucketPolicy": true,
+    "@aws-cdk/core:defaultCrossStackReferences": "strong",
+    "@aws-cdk/core:target-partitions": ["aws"]
+  }
+}

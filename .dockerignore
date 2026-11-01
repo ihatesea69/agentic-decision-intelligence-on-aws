@@ -1,0 +1,4 @@
+*
+!engines/adi_engines/**
+!jobs/adi_jobs/**
+**/__pycache__

@@ -1,0 +1,15 @@
+{
+  "_note": "EXAMPLE, invented. Action effects ('shift') are ASSUMPTIONS until an action-conditioned estimate or a shadow-mode experiment measures them. Set effects_measured to true only then.",
+  "origination_frozen": true,
+  "effects_measured": false,
+  "horizon_months": 12,
+  "max_wo_per_month": null,
+  "specs": [
+    {"name": "intensify_collections", "states": ["B1", "B2"], "shift": {"B1": 0.15, "B2": 0.15},
+     "cost_per_account": 0.0003, "capacity_per_month": 45},
+    {"name": "restructure", "states": ["B2", "B3"], "shift": {"B2": 0.10, "B3": 0.20},
+     "cost_per_account": 0.0015, "capacity_per_month": 12},
+    {"name": "tighten_approval", "states": ["B0"], "shift": {"B0": 0.05},
+     "cost_per_account": 0.0, "capacity_per_month": null}
+  ]
+}

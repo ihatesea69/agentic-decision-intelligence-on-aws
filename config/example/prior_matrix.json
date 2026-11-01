@@ -1,0 +1,6 @@
+{"_note": "EXAMPLE prior only: the invented demo sample itself (engines/adi_engines/reference.py). Replace with a matrix pooled over several real months before any production run.",
+ "matrix": [[0.949708, 0.044444, 0.0, 0.0, 0.0, 0.005848, 0.0],
+            [0.40845, 0.338028, 0.239437, 0.014085, 0.0, 0.0, 0.0],
+            [0.0, 0.25, 0.305556, 0.444444, 0.0, 0.0, 0.0],
+            [0.0, 0.0, 0.263158, 0.210526, 0.526316, 0.0, 0.0],
+            [0.0, 0.0, 0.0, 0.105263, 0.157895, 0.0, 0.736842]]}
