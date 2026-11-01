@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.local-run/
+infra/cdk.out/
+infra/cdk.out.*/
+infra/.build/
+infra/synth*.log
+# real configuration and data never go into git
+config/live/
+*.jsonl
+!tests/**/*.jsonl
